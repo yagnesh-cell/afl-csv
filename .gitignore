@@ -1,0 +1,12 @@
+node_modules
+files
+.env
+deciders.csv
+airdrop.txt
+individual.txt
+*.csv
+credentials.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
