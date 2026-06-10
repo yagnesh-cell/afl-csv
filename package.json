@@ -1,0 +1,27 @@
+{
+  "name": "afl-csv-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "process": "node ./scripts/process.js",
+    "airdrop": "node ./scripts/airdrop.js",
+    "pack-airdrop": "node ./scripts/packAirdrop.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "2.1.0",
+    "@onflow/fcl": "^1.2.1",
+    "@onflow/transport-grpc": "^1.1.1",
+    "aws-sdk": "^2.1145.0",
+    "dotenv": "^16.0.1",
+    "elliptic": "^6.5.4",
+    "googleapis": "105",
+    "node-fetch": "2",
+    "sha3": "^2.1.4"
+  }
+}
